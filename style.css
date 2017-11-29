@@ -1,0 +1,360 @@
+/*
+Theme Name: iei01
+Theme URI: 
+Author: lily
+Author URI: 
+Description: 
+Version: 1.3
+License: 
+License URI: 
+Tags: 
+Text Domain: 
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+body{
+    font-size: 16px;
+    font-family: "微软雅黑,Helvetica Neue", "PingFang SC", "Microsoft Yahei", STXihei, 华文细黑, sans-serif;
+}
+/*nav*/
+nav{
+
+    background: #fff!important;
+    border: none!important;
+}
+.navbar-header{
+    height: 110px;
+
+}
+.navbar-brand img{
+    max-width: 222px;
+    display: inline-block;
+    margin-top: -3px;
+    position: absolute;
+    left:0px;
+}
+.navbar-brand
+{
+    font-size: 36px;
+    color: #000!important;
+    letter-spacing:3px;
+}
+#example-navbar-collapse{
+    border: none;
+    float: right!important;
+    margin-top: 30px;
+
+}
+.navbar-collapse ul li:hover{
+    background:#337ab7;
+    transition: 2s;
+}
+
+.navbar-collapse a{
+    color: #000!important;
+    letter-spacing: 2px;
+}
+.navbar-brand span{
+
+    position: absolute;
+    left: 240px;
+    top: 40px;
+}
+/*nav*/
+/* carousel*/
+#carousel-example-generic{
+    position: relative;
+    top:-20px;
+
+}
+/* carousel*/
+
+
+
+.jieshao{
+    position: relative;
+
+    margin-top: 40px;
+}
+.jieshao1{
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+
+}
+.jieshao-1{
+    background: #F55;
+}
+.jieshao-2{
+    background: #973CB6;;
+}
+.jieshao-3{
+    background: #5EC64D;;
+}
+.jieshao-4{
+    background: #29AAE2;;
+}
+.peixun{
+    position: relative;
+
+    margin-top: 40px;
+}
+.thumbnail{
+    border-bottom: 2px solid #29AAE2;
+    background: #F8F8F8;
+    height: 360px;
+}
+.caption p{
+    margin: 10px 0px 15px 0px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.mNtxt, .mNt-ul {
+    height: auto;
+    padding: 0px;
+}
+.mNt-li {
+    color: #272727;
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+.mNt-li .no-h1 {
+    line-height: 0;
+    height: 24px;
+    margin-bottom: 16px;
+    background: url(./imgs/bg12.jpg) repeat-x;
+    margin: 25px auto;
+}
+.mNt-li .no-h1 p {
+    padding: 9px 50px;
+    width: 50%;
+    margin-left: 25%;
+    height: 20px;
+    background: #fff;
+
+}
+.mNt-li .no-h1 span {
+    font-size: 30px;
+    color: #29AAE2;
+}
+.btn-group button{
+    width: 100px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+.guanyu p{
+
+    line-height: 27px;
+}
+.guanyuwomen{
+    margin-top: 20px;
+}
+.footer{
+    background: #29AAE2;
+    padding: 40px;
+    color: #fff!important;
+    margin-top: 20px;
+}
+.footer li{
+    list-style: none;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+.footer li a{
+    color: #fff!important;
+}
+.footer1{
+    padding: 15px;
+    text-align: center;
+    color: #888;
+}
+.thumbnail img{
+    width: 100%!important;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand span{
+        display: none;
+    }
+
+    .navbar-toggle{
+        position: relative;
+        top: 25px;
+    }
+
+    .navbar-nav a{
+        color: #fff!important;
+        background:#337ab7;
+
+    }
+    #example-navbar-collapse{
+        margin-top: -7px;
+        margin-bottom: -7px;
+    }
+    /* jieshaobufen*/
+    .jieshao1{
+        margin-top: 40px!important;
+    }
+    .jieshao-1{
+        margin: 0px;
+    }
+    /* jieshaobufen*/
+    .mNt-li .no-h1 span{
+        display: none;
+    }
+    .mNt-li .no-h1 p{
+        width: 100%!important;
+        margin-left: 0px!important;
+    }
+    .thumbnail{
+        height: auto!important
+    }
+
+    .guanyuwomen .col-md-8 p{
+        text-align: justify;
+    }
+
+    .footer .col-md-3{
+        background: #0000004f;
+        padding: 10px 0px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    #example-navbar-collapse{
+        width: 110%;
+        text-align: center;
+    }
+    #example-navbar-collapse li{
+        border: 1px solid #fff
+    }
+    #example-navbar-collapse a{
+        background: #29AAE2;
+    }
+    #example-navbar-collapse a:hover{
+        background: #337ab7!important;
+    }
+    .jieshao {
+        position: relative;
+        margin-top: 0px!important;
+    }
+    .about p{
+        padding: 15px;
+    }
+}
+@media (width: 768px){
+    #example-navbar-collapse {
+        margin-top: 28px;
+        width: 83%;
+
+        padding: 0px;
+        position: absolute;
+        right: -77px;
+
+    }
+    #example-navbar-collapse a{
+        background: #fff;
+    }
+    .navbar-nav a
+    {
+        color: #000!important;
+        background: #fff;
+    }
+    .thumbnail{
+        height: 360px!important;
+    }
+    .footer .col-sm-6{
+        width: 45%;
+
+        margin-right: 10px;
+    }
+}
+
+@media (min-width:769px) and (max-width: 992px){
+    .navbar-brand span{
+        display: none;
+    }
+    .jieshao1{
+        margin-top: 20px;
+    }
+    .mNt-li .no-h1 span{
+        display: none;
+    }
+
+    .thumbnail{
+        width: 100%!important;
+        margin-left: 0px!important;
+    }
+    .thumbnail{
+        height: 360px!important
+    }
+
+}
+@media (width:992px){
+    .navbar-brand span{
+        display: none;
+    }
+    .jieshao1{
+        margin-top: 20px;
+    }
+    .mNt-li .no-h1 span{
+        display: none;
+    }
+    .thumbnail{
+        height: 340px!important
+    }
+
+
+}
+@media (min-width:993px) and (max-width: 1024px){
+    .navbar-brand span{
+        display: none;
+    }
+    .jieshao1{
+        margin-top: 20px;
+    }
+    .mNt-li .no-h1 span{
+        display: none;
+    }
+
+
+}
+@media (min-width:1024px) and (max-width: 1200px){
+    .navbar-brand span{
+        display: none;
+    }
+    .jieshao1{
+        margin-top: 20px;
+    }
+    .mNt-li .no-h1 span{
+        display: none;
+    }
+
+}
+
+/*
+培訓頁面*/
+.peixun-h3{
+    text-align: left;
+}
+.peixun-dashi {
+    padding: 50px;
+}
+/*培訓頁面*/
+.about {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.about p{
+    text-align: justify;
+    margin: 20px 0px 0px 0px;
+}
+hr{
+    color: #bbbbbb;
+    margin-top: 4em;
+    border: 1px dashed;
+    width: 100%;
+}
